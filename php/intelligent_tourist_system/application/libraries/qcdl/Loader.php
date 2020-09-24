@@ -10,9 +10,9 @@ class Loader {
     $this->CI = &get_instance();
 
     $libraries = array(
-      "quick_ci_dev/Functions"  => "qcdl_fnc",
-      "quick_ci_dev/Validator" => "qcdl_val",
-      "quick_ci_dev/Database"  => "qcdl_db",
+      "qcdl/Functions"  => "qcdl_fnc",
+      "qcdl/Validator" => "qcdl_val",
+      "qcdl/Database"  => "qcdl_db",
     );
 
     $this->CI->load->library($libraries);

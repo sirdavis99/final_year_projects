@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Sans;
+    src: url('../fonts/google-sans/ProductSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url('../fonts/montserrat/Montserrat-Medium.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url('../fonts/montserrat/Montserrat-Bold.ttf');
+}
+
+body, html {
+    margin: 0px !important;
+    padding: 0px !important;
+    height: 100%;
+    font-family: 'Montserrat', Sans, sans-serif !important;
+}
+
+b, strong, .font-weight-bold{
+    font-family: 'Montserrat-Bold' !important;
+}
+
+.text-sm {
+    font-size: .875rem !important;
+}
+.text-xs {
+    font-size: .75rem !important;
+}
+.card{
+    /*box-shadow: none !important;*/
+    border: 1px solid #dee2e6!important
+}
+
+main{
+    height: 100% !important;
+    overflow-y: auto !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+main.spaced{
+    padding-top: 65px !important;
+
+}
